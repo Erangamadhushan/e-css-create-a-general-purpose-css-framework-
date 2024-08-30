@@ -1,0 +1,42 @@
+:root {
+    /* color*/
+    /*===============================================*/
+    /* alice */
+    --alice:#f2f4f6;
+    --alice-25:#ecedef;
+    --alice-50:#e4e6e8;
+    --alice-75:#e1e5e8;
+
+    /*===============================================*/
+    /*lagoon*/
+    --lagoon:#193035;
+    --lagoon-25:#006a6a;
+    --lagoon-50:#064439;
+    --lagoon-75:#274546;
+
+    /*===============================================*/
+    /*cayman*/
+    --cayman:#054182;
+    --cayman-25:#1058a5;
+    --cayman-50:#0a519d;
+    --cayman-75:#07488e;
+}
+
+/*anchor tag property*/
+
+
+/*backgroud-colors properties*/
+.bg-alice {background-color:var(--alice)}.bg-alice-25 {background-color:var(--alice-25);}.bg-alice-50 {background-color:var(--alice-50)}.bg-alice-75 {background-color:var(--alice-75)}
+.bg-lagoon {background-color:var(--lagoon)}.bg-lagoon-25 {background-color:var(--lagoon-25);}.bg-lagoon-50 {background-color:var(--lagoon-50)}.bg-lagoon-75 {background-color:var(--lagoon-75)}
+.bg-cayman {background-color:var(--cayman)}.bg-cayman-25 {background-color:var(--cayman-25)}.bg-cayman-50 {background-color:var(--cayman-50)}.bg-cayman-75 {background-color:var(--cayman-75)}
+.bg-dark {background-color:#161515;}.bg-dark-25{background-color:#041921;}.bg-dark-50 {background-color:#101020;}.bg-dark-75 {background-color:#131316;}
+
+/*button property*/
+.bt {padding:4px;cursor:pointer;}.bt-sm {padding:5px;font-size:1.05em}.bt-md {padding:8px;font-size:1.15em}.bt-lg{padding:15px;font-size:1.2em} .bt-xl {padding:20px;font-size:1.25em}
+
+/* border-radius*/
+.rounded {border-radius:12px}
+
+
+/*text property*/
+.tx-white {color:#ffffff;} .tx-dark{color:#161515;} .tx-alice{color:#f2f4f6;} .tx-lagoon {color:}
