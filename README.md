@@ -1,1 +1,1 @@
-# e-css
+General purpose css framework
