@@ -1,0 +1,1 @@
+window.alert('ECSS is a General CSS Framework !');
