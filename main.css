@@ -151,6 +151,8 @@
 .tx-white {color:#ffffff;} .tx-dark{color:var(--dark)} .tx-alice{color:var(--alice);} .tx-lagoon {color:var(--lagoon)}.tx-cayman {color:var(--cayman)}.tx-maroon {color:var(--maroon);}.tx-mint{color:var(--mint);}.tx-neo{color:var(--neo);}
 .tx-sea{color:var(--sea);}.tx-gray {color:var(--gray);} .tx-purly{color:var(--purly);}
 .tx-center{text-align:center;}.tx-left{text-align:left;}.tx-right{text-align:right;}.tx-justity{text-align:justify}
+.tx-uppercase {text-transform:uppercase;} .tx-lower {text-transform:lowercase;} .tx-capitalize {text-transform:capitalize;}
+.tx-underline {text-decoration: underline;} .tx-overline {text-decoration:overline;} .tx-dashed {text-decoration:dashed;} .tx-dotted {text-decoration:dotted;}
 /*tx- {text-}*/
 
 /*heading */
