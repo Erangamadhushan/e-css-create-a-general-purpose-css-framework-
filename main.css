@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    /* padding:var(--p1); */
 }
 :root {
     /*==================================================== color =====================================================*/
@@ -53,8 +54,12 @@
     /*container width*/
     --in:90%; --out:100%;
 
+    
     /*visible and invisible*/
     .visible {visibility:visible;} .invisible {visibility:hidden;}
+
+    /*overflow property */
+    .overflow-hidden {overflow:hidden;} .overflow-auto {overflow:auto;} .overflow-scroll {overflow:scroll;} .overflow-visible {overflow:visible;}
 
     /*shadow effectt */
     .shadow-none {box-shadow:none;} .shadow-sm {box-shadow:0 4px 6px rgba(0, 0, 0, 0.6), 3px 1px 3px rgba(0, 0, 0, 0.08);} .shadow-lg {box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.6), 5px 10px 15px rgba(0, 0, 0, 0.1);}
@@ -142,6 +147,7 @@
 
 
 /*border property*/
+.border {border:1px solid var(--dark);}
 .border-alice {border:1px solid var(--alice);}.border-lagoon{border:1px solid var(--lagoon);} .border-cayman{border:1px solid var(--cayman);} .border-dark{border:1px solid var(--dark);}
 .border-neo {border:1px solid var(--neo);} .border-sea {border:1px solid var(--sea);} .border-maroon{border:1px solid var(--maroon);} .border-mint{border:1px solid var(--mint);}
 .border-gray {border:1px solid var(--gray);} .border-purly {border:1px solid var(--purly);}
