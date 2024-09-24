@@ -189,7 +189,8 @@
 .align-items-start {align-items:start;} .align-items-stretch {align-items:stretch;}
 
 .align-content-center {align-content:center;} .align-content-baseline {align-content:baseline;} .align-content-end {align-content:end;} .align-content-between {align-content:space-between;} .align-content-around {align-content:space-around;}
-
+.align-self-auto {align-self:auto;} .align-self-baseline {align-self:baseline;} .align-self-center {align-self:center;} .align-self-safe {align-self:safe;} .align-self-unsafe {align-self:unsafe;}
+.align-self-d-start {align-self: flex-start;} .align-self-d-end {align-self:flex-end;}
 /*grid*/
 .grid {display:grid;width:100%;}
 .grid>.grid-item {width:100%;}
