@@ -1273,6 +1273,234 @@
   color: var(--purly);
 }
 
+/*button property*/
+.btn {
+  padding: 8px;
+  font-size: var(--s1);
+}
+
+.btn-sm {
+  padding: 10px;
+  font-size: var(--s2);
+}
+
+.btn-md {
+  padding: 14px;
+  font-size: var(--s3);
+}
+
+.btn-lg {
+  padding: 18px;
+  font-size: var(--s4);
+}
+
+.btn-xl {
+  padding: 25px;
+  font-size: var(--s5);
+}
+
+.btn, .btn-sm, .btn-md, .btn-lg, .btn-xl {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-alice {
+  background-color: var(--alice);
+  color: var(--dark);
+}
+
+.btn-lagoon {
+  background-color: var(--lagoon);
+  color: var(--alice);
+}
+
+.btn-cayman {
+  background-color: var(--cayman);
+  color: var(--alice);
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.btn-neo {
+  background-color: var(--neo);
+  color: var(--dark);
+}
+
+.btn-sea {
+  background-color: var(--sea);
+  color: var(--dark);
+}
+
+.btn-maroon {
+  background-color: var(--maroon);
+  color: #ffffff;
+}
+
+.btn-mint {
+  background-color: var(--mint);
+  color: #ffffff;
+}
+
+.btn-gray {
+  background-color: var(--gray);
+  color: var(--alice);
+}
+
+.btn-purly {
+  background-color: var(--purly);
+  color: var(--alice);
+}
+
+.btn-alice:hover {
+  background-color: var(--alice-75);
+}
+
+.btn-lagoon:hover {
+  background-color: var(--lagoon-75);
+}
+
+.btn-cayman:hover {
+  background-color: var(--cayman-75);
+}
+
+.btn-dark:hover {
+  background-color: var(--dark-75);
+}
+
+.btn-neo:hover {
+  background-color: var(--neo-75);
+}
+
+.btn-sea:hover {
+  background-color: var(--sea-75);
+}
+
+.btn-maroon:hover {
+  background-color: var(--maroon-75);
+}
+
+.btn-mint:hover {
+  background-color: var(--mint-75);
+}
+
+.btn-gray:hover {
+  background-color: var(--gray-75);
+}
+
+.btn-purly:hover {
+  background-color: var(--purly-75);
+}
+
+.btn-outline-alice, .btn-outline-lagoon, .btn-outline-cayman, .btn-outline-dark, .btn-outline-maroon, .btn-outline-mint, .btn-outline-neo, .btn-outline-sea, .btn-outline-gray, .btn-outline-purly {
+  background-color: transparent;
+}
+
+.btn-outline-alice {
+  border: 1px solid var(--alice);
+  color: var(--alice);
+}
+
+.btn-outline-lagoon {
+  border: 1px solid var(--lagoon);
+  color: var(--lagoon);
+}
+
+.btn-outline-cayman {
+  border: 1px solid var(--cayman);
+  color: var(--cayman);
+}
+
+.btn-outline-dark {
+  border: 1px solid var(--dark);
+  color: var(--dark);
+}
+
+.btn-outline-maroon {
+  border: 1px solid var(--maroon);
+  color: var(--maroon);
+}
+
+.btn-outline-mint {
+  border: 1px solid var(--mint);
+  color: var(--mint);
+}
+
+.btn-outline-neo {
+  border: 1px solid var(--neo);
+  color: var(--neo);
+}
+
+.btn-outline-sea {
+  border: 1px solid var(--sea);
+  color: var(--sea);
+}
+
+.btn-outline-gray {
+  border: 1px solid var(--gray);
+  color: var(--gray);
+}
+
+.btn-outline-purly {
+  border: 1px solid var(--purly);
+  color: var(--purly);
+}
+
+/*button outline hover effect*/
+.bt-outline-alice:hover {
+  background-color: var(--alice);
+  color: var(--dark);
+}
+
+.bt-outline-lagoon:hover {
+  background-color: var(--lagoon);
+  color: var(--alice);
+}
+
+.bt-outline-cayman:hover {
+  background-color: var(--cayman);
+  color: var(--alice);
+}
+
+.bt-outline-dark:hover {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.bt-outline-neo:hover {
+  background-color: var(--neo);
+  color: var(--dark);
+}
+
+.bt-outline-sea:hover {
+  background-color: var(--sea);
+  color: var(--dark);
+}
+
+.bt-outline-maroon:hover {
+  background-color: var(--maroon);
+  color: #ffffff;
+}
+
+.bt-outline-mint:hover {
+  background-color: var(--mint);
+  color: #ffffff;
+}
+
+.bt-outline-gray:hover {
+  background-color: var(--gray);
+  color: var(--alice);
+}
+
+.bt-outline-purly:hover {
+  background-color: var(--purly);
+  color: var(--alice);
+}
+
+/*bt-outline- :hover{background-color:var();color:#}*/
 /*background-theme */
 .bg-theme-dark {
   background-color: var(--dark);
@@ -1504,4 +1732,141 @@
 
 .link-lagoon {
   color: var(--lagoon);
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* border-radius*/
+.rounded {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.rounded-top {
+  border-radius: 12px 12px 0 0;
+}
+
+.rounded-end {
+  border-radius: 0 12px 12px 0;
+}
+
+.rounded-start {
+  border-radius: 12px 0 0 12px;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.rounded-pill {
+  border-radius: 35%;
+}
+
+.rounded-1 {
+  border-radius: 5px;
+}
+
+.rounded-2 {
+  border-radius: 10px;
+}
+
+.rounded-3 {
+  border-radius: 15px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.rounded-5 {
+  border-radius: 25px;
+}
+
+/*text property*/
+.txt-white {
+  color: #ffffff;
+}
+
+.txt-dark {
+  color: var(--dark);
+}
+
+.txt-alice {
+  color: var(--alice);
+}
+
+.txt-lagoon {
+  color: var(--lagoon);
+}
+
+.txt-cayman {
+  color: var(--cayman);
+}
+
+.txt-maroon {
+  color: var(--maroon);
+}
+
+.txt-mint {
+  color: var(--mint);
+}
+
+.txt-neo {
+  color: var(--neo);
+}
+
+.txt-sea {
+  color: var(--sea);
+}
+
+.txt-gray {
+  color: var(--gray);
+}
+
+.txt-purly {
+  color: var(--purly);
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-justity {
+  text-align: justify;
+}
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.txt-lower {
+  text-transform: lowercase;
+}
+
+.txt-capitalize {
+  text-transform: capitalize;
+}
+
+.txt-underline {
+  text-decoration: underline;
+}
+
+.txt-overline {
+  text-decoration: overline;
+}
+
+.txt-dashed {
+  text-decoration: dashed;
+}
+
+.txt-dotted {
+  text-decoration: dotted;
+}
+
+/*tx- {text-}*//*# sourceMappingURL=styles.css.map */
