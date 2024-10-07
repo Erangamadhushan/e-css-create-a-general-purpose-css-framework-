@@ -11,7 +11,7 @@
 
     /*===============================================*/
     /*lagoon*/
-    --lagoon:#0b1416; --lagoon-25:#0f1d20; --lagoon-50:#0e1a1d; --lagoon-75:#0c171a;
+    --lagoon:#0b1416; --lagoon-25:#111d20; --lagoon-50:#0e1a1d; --lagoon-75:#0c171a;
 
     /*===============================================*/
     /*cayman*/
@@ -226,3 +226,9 @@
 .bt-outline-maroon:hover{background-color:var(--maroon);color:#ffffff;}.bt-outline-mint:hover{background-color:var(--mint);color:#ffffff;}
 .bt-outline-gray:hover {background-color:var(--gray);color:var(--alice);} .bt-outline-purly:hover {background-color:var(--purly);color:var(--alice);}
 /*bt-outline- :hover{background-color:var();color:#}*/
+
+/*visibility text*/
+
+.visible-sm, .visible-md, .visible-lg, .visible-xl {
+    display:none;
+}
