@@ -123,6 +123,8 @@
 
 /*column values*/
 
+/*float property */
+.float-left {float:left;} .float-right {float:right} .float-start {float:inline-start} .float-end {float:inline-end;}
 
 /*card properties*/
 .card {border-radius:8px;padding:var(--p2);border:1px solid gray;position:relative;} .card-body {position:relative;padding-block:var(--p4);}
@@ -222,12 +224,12 @@
 .btn-outline-gray{border:1px solid var(--gray);color:var(--gray);} .btn-outline-purly {border:1px solid var(--purly);color:var(--purly);}
 
 /*button outline hover effect*/
-.bt-outline-alice:hover {background-color:var(--alice);color:var(--dark);}.bt-outline-lagoon:hover{background-color:var(--lagoon);color:var(--alice);}
-.bt-outline-cayman:hover{background-color:var(--cayman);color:var(--alice)}.bt-outline-dark:hover {background-color:var(--dark);color:#ffffff;}
-.bt-outline-neo:hover{background-color:var(--neo);color:var(--dark)}.bt-outline-sea:hover{background-color:var(--sea);color:var(--dark)}
-.bt-outline-maroon:hover{background-color:var(--maroon);color:#ffffff;}.bt-outline-mint:hover{background-color:var(--mint);color:#ffffff;}
-.bt-outline-gray:hover {background-color:var(--gray);color:var(--alice);} .bt-outline-purly:hover {background-color:var(--purly);color:var(--alice);}
-/*bt-outline- :hover{background-color:var();color:#}*/
+.btn-outline-alice:hover {background-color:var(--alice);color:var(--dark);}.btn-outline-lagoon:hover{background-color:var(--lagoon);color:var(--alice);}
+.btn-outline-cayman:hover{background-color:var(--cayman);color:var(--alice)}.btn-outline-dark:hover {background-color:var(--dark);color:#ffffff;}
+.btn-outline-neo:hover{background-color:var(--neo);color:var(--dark)}.btn-outline-sea:hover{background-color:var(--sea);color:var(--dark)}
+.btn-outline-maroon:hover{background-color:var(--maroon);color:#ffffff;}.btn-outline-mint:hover{background-color:var(--mint);color:#ffffff;}
+.btn-outline-gray:hover {background-color:var(--gray);color:var(--alice);} .btn-outline-purly:hover {background-color:var(--purly);color:var(--alice);}
+/*btn-outline- :hover{background-color:var();color:#}*/
 
 /*visibility text*/
 
