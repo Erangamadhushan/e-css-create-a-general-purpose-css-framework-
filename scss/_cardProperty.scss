@@ -1,0 +1,5 @@
+/*card properties*/
+.card {border-radius:8px;padding:var(--p2);border:1px solid gray;position:relative;} .card-body {position:relative;padding-block:var(--p4);}
+.card .card-img-top {position:relative;width:100%;top:0;left:0;aspect-ratio: 16/9;background-size:cover;}
+.card .card-img-bottom {position:relative;width:100%;bottom:0;left:0;aspect-ratio: 16/9;background-size:cover;}
+.card-title{font-weight:900;padding-block:var(--p2);} .card-text {font-size:1.1em;padding-block:var(--p3)} .card-footer {padding-block:15px;border-top:1px solid gray;}
