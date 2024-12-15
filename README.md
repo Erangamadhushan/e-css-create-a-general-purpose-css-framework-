@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-CSS Practise Platform</title>
-        <link rel="stylesheet" type="text/css" href="scss/styles.css">
-        <style>
-        </style>
-    </head>
-    <body class="">
-        <div class="full-container bg-maroon">
+<div class="full-container bg-maroon">
             <h1 class="text-center text-white">E-CSS General Purpose Framework</h1>
         </div>
-        <table class="w-100">
+        <table width="1000">
             <thead>
                 <th>Property</th>
                 <th> Values</th>
@@ -81,6 +70,3 @@
                 <tr></tr>
             </tbody>
         </table>
-    </body>
-</html>
-<!--End the html page here -->
