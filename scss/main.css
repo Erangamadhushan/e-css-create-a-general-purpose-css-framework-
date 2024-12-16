@@ -2991,4 +2991,196 @@
 .panel-purly .panel-heading {
   background-color: var(--purly-25);
   color: #ffffff;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.link-alice {
+  color: var(--alice);
+  text-decoration: none;
+}
+.link-alice:hover {
+  text-decoration: underline;
+}
+
+.link-lagoon {
+  color: var(--lagoon);
+  text-decoration: none;
+}
+.link-lagoon:hover {
+  text-decoration: underline;
+}
+
+.link-cayman {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-cayman:hover {
+  text-decoration: underline;
+}
+
+.link-dark {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-dark:hover {
+  text-decoration: underline;
+}
+
+.link-maroon {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-maroon:hover {
+  text-decoration: underline;
+}
+
+.link-mint {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-mint:hover {
+  text-decoration: underline;
+}
+
+.link-neo {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-neo:hover {
+  text-decoration: underline;
+}
+
+.link-sea {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-sea:hover {
+  text-decoration: underline;
+}
+
+.link-gray {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-gray:hover {
+  text-decoration: underline;
+}
+
+.link-purly {
+  color: var(--cayman);
+  text-decoration: none;
+}
+.link-purly:hover {
+  text-decoration: underline;
+}
+
+/* text-size property */
+.text-sm {
+  font-size: 0.75em;
+}
+
+.text-md {
+  font-size: 1em;
+}
+
+.text-lg {
+  font-size: 1.25em;
+}
+
+.text-xl {
+  font-size: 1.75em;
+}
+
+.text-xxl {
+  font-size: 2.25em;
+}
+
+/*text property*/
+.text-white {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-alice {
+  color: var(--alice);
+}
+
+.text-lagoon {
+  color: var(--lagoon);
+}
+
+.text-cayman {
+  color: var(--cayman);
+}
+
+.text-maroon {
+  color: var(--maroon);
+}
+
+.text-mint {
+  color: var(--mint);
+}
+
+.text-neo {
+  color: var(--neo);
+}
+
+.text-sea {
+  color: var(--sea);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-purly {
+  color: var(--purly);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justity {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-overline {
+  text-decoration: overline;
+}
+
+.text-dashed {
+  text-decoration: dashed;
+}
+
+.text-dotted {
+  text-decoration: dotted;
+}
+
+/*tx- {text-}*//*# sourceMappingURL=main.css.map */
