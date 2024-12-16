@@ -2698,4 +2698,297 @@
 .card-footer {
   padding-block: 15px;
   border-top: 1px solid gray;
+}
+
+/*button property*/
+.btn {
+  padding: 8px;
+  font-size: var(--s1);
+}
+
+.btn-sm {
+  padding: 10px;
+  font-size: var(--s2);
+}
+
+.btn-md {
+  padding: 14px;
+  font-size: var(--s3);
+}
+
+.btn-lg {
+  padding: 18px;
+  font-size: var(--s4);
+}
+
+.btn-xl {
+  padding: 25px;
+  font-size: var(--s5);
+}
+
+.btn, .btn-sm, .btn-md, .btn-lg, .btn-xl {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-alice {
+  background-color: var(--alice);
+  color: var(--dark);
+}
+
+.btn-lagoon {
+  background-color: var(--lagoon);
+  color: var(--alice);
+}
+
+.btn-cayman {
+  background-color: var(--cayman);
+  color: var(--alice);
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.btn-neo {
+  background-color: var(--neo);
+  color: var(--dark);
+}
+
+.btn-sea {
+  background-color: var(--sea);
+  color: var(--dark);
+}
+
+.btn-maroon {
+  background-color: var(--maroon);
+  color: #ffffff;
+}
+
+.btn-mint {
+  background-color: var(--mint);
+  color: #ffffff;
+}
+
+.btn-gray {
+  background-color: var(--gray);
+  color: var(--alice);
+}
+
+.btn-purly {
+  background-color: var(--purly);
+  color: var(--alice);
+}
+
+.btn-alice:hover {
+  background-color: var(--alice-75);
+}
+
+.btn-lagoon:hover {
+  background-color: var(--lagoon-75);
+}
+
+.btn-cayman:hover {
+  background-color: var(--cayman-75);
+}
+
+.btn-dark:hover {
+  background-color: var(--dark-75);
+}
+
+.btn-neo:hover {
+  background-color: var(--neo-75);
+}
+
+.btn-sea:hover {
+  background-color: var(--sea-75);
+}
+
+.btn-maroon:hover {
+  background-color: var(--maroon-75);
+}
+
+.btn-mint:hover {
+  background-color: var(--mint-75);
+}
+
+.btn-gray:hover {
+  background-color: var(--gray-75);
+}
+
+.btn-purly:hover {
+  background-color: var(--purly-75);
+}
+
+.btn-outline-alice, .btn-outline-lagoon, .btn-outline-cayman, .btn-outline-dark, .btn-outline-maroon, .btn-outline-mint, .btn-outline-neo, .btn-outline-sea, .btn-outline-gray, .btn-outline-purly {
+  background-color: transparent;
+}
+
+.btn-outline-alice {
+  border: 1px solid var(--alice);
+  color: var(--alice);
+}
+
+.btn-outline-lagoon {
+  border: 1px solid var(--lagoon);
+  color: var(--lagoon);
+}
+
+.btn-outline-cayman {
+  border: 1px solid var(--cayman);
+  color: var(--cayman);
+}
+
+.btn-outline-dark {
+  border: 1px solid var(--dark);
+  color: var(--dark);
+}
+
+.btn-outline-maroon {
+  border: 1px solid var(--maroon);
+  color: var(--maroon);
+}
+
+.btn-outline-mint {
+  border: 1px solid var(--mint);
+  color: var(--mint);
+}
+
+.btn-outline-neo {
+  border: 1px solid var(--neo);
+  color: var(--neo);
+}
+
+.btn-outline-sea {
+  border: 1px solid var(--sea);
+  color: var(--sea);
+}
+
+.btn-outline-gray {
+  border: 1px solid var(--gray);
+  color: var(--gray);
+}
+
+.btn-outline-purly {
+  border: 1px solid var(--purly);
+  color: var(--purly);
+}
+
+/*button outline hover effect*/
+.btn-outline-alice:hover {
+  background-color: var(--alice);
+  color: var(--dark);
+}
+
+.btn-outline-lagoon:hover {
+  background-color: var(--lagoon);
+  color: var(--alice);
+}
+
+.btn-outline-cayman:hover {
+  background-color: var(--cayman);
+  color: var(--alice);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.btn-outline-neo:hover {
+  background-color: var(--neo);
+  color: var(--dark);
+}
+
+.btn-outline-sea:hover {
+  background-color: var(--sea);
+  color: var(--dark);
+}
+
+.btn-outline-maroon:hover {
+  background-color: var(--maroon);
+  color: #ffffff;
+}
+
+.btn-outline-mint:hover {
+  background-color: var(--mint);
+  color: #ffffff;
+}
+
+.btn-outline-gray:hover {
+  background-color: var(--gray);
+  color: var(--alice);
+}
+
+.btn-outline-purly:hover {
+  background-color: var(--purly);
+  color: var(--alice);
+}
+
+/*btn-outline- :hover{background-color:var();color:#}*/
+.panel {
+  border-radius: 12px 12px 8px 8px;
+  border: 1px solid #222;
+  overflow: hidden;
+}
+.panel .panel-heading {
+  padding: var(--p4);
+}
+.panel .panel-body {
+  padding: var(--p4);
+}
+.panel .panel-body .panel-title {
+  font-weight: bold;
+}
+
+.panel-alice .panel-heading {
+  background-color: var(--alice-50);
+  color: var(--dark);
+}
+
+.panel-lagoon .panel-heading {
+  background-color: var(--lagoon-25);
+  color: #ffffff;
+}
+
+.panel-cayman .panel-heading {
+  background-color: var(--cayman-25);
+  color: #ffffff;
+}
+
+.panel-dark .panel-heading {
+  background-color: var(--dark-25);
+  color: #ffffff;
+}
+
+.panel-maroon .panel-heading {
+  background-color: var(--maroon-25);
+  color: #ffffff;
+}
+
+.panel-minit .panel-heading {
+  background-color: var(--mint-25);
+  color: #ffffff;
+}
+
+.panel-neo .panel-heading {
+  background-color: var(--neo-25);
+  color: var(--dark-25);
+}
+
+.panel-sea .panel-heading {
+  background-color: var(--sea-25);
+  color: var(--dark-25);
+}
+
+.panel-gray .panel-heading {
+  background-color: var(--gray-25);
+  color: #ffffff;
+}
+
+.panel-purly .panel-heading {
+  background-color: var(--purly-25);
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

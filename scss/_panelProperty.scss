@@ -1,0 +1,72 @@
+@mixin panel-background($backgroundcolor, $color) {
+    background-color:$backgroundcolor;
+    color:$color;
+} 
+.panel {
+    border-radius:12px 12px 8px 8px;
+    border:1px solid #222;
+    overflow:hidden;
+    .panel-heading {
+        padding:var(--p4); 
+    }
+     .panel-body {
+        padding:var(--p4); 
+         .panel-title {
+             font: {
+                 weight: bold;
+             }
+         }
+     }
+ }
+ 
+.panel-alice {
+    .panel-heading {
+        @include panel-background(var(--alice-50), var(--dark));
+         
+    }
+}
+.panel-lagoon {
+    .panel-heading {
+        @include panel-background(var(--lagoon-25), #ffffff);
+    }
+}
+.panel-cayman {
+    .panel-heading {
+        @include panel-background(var(--cayman-25), #ffffff);
+    }
+}
+.panel-dark {
+    .panel-heading {
+        @include panel-background(var(--dark-25), #ffffff);
+    }
+}
+.panel-maroon {
+    .panel-heading {
+        @include panel-background(var(--maroon-25), #ffffff);
+    }
+}
+.panel-minit {
+    .panel-heading {
+        @include panel-background(var(--mint-25), #ffffff);
+    }
+}
+.panel-neo {
+    .panel-heading {
+        @include panel-background(var(--neo-25), var(--dark-25));
+    }
+}
+.panel-sea {
+    .panel-heading {
+        @include panel-background(var(--sea-25), var(--dark-25));
+    }
+}
+.panel-gray {
+    .panel-heading {
+        @include panel-background(var(--gray-25), #ffffff);
+    }
+}
+.panel-purly {
+    .panel-heading {
+        @include panel-background(var(--purly-25), #ffffff);
+    }
+}

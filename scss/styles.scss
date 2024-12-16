@@ -1,39 +1,63 @@
 @import './base';
 
-/* text-size property */
-.text-sm {font-size:.75em;} .text-md {font-size:1em;} .text-lg {font-size:1.25em;} .text-xl {font-size:1.75em;} .text-xxl {font-size:2.25em;}
+// /* text-size property */
+// .text-sm {font-size:.75em;} .text-md {font-size:1em;} .text-lg {font-size:1.25em;} .text-xl {font-size:1.75em;} .text-xxl {font-size:2.25em;}
 
-/*background-theme */
-.bg-theme-dark {background-color:var(--dark);} .bg-theme-white {background-color:#f6f5f5;} .bg-theme-lagoon {background-color:var(--lagoon);} .bg-theme-cayman {background-color:var(--cayman);} .bg-theme-maroon {background-color:var(--maroon);} .bg-theme-mint {background-color:var(--mint);} .bg-theme-neo {background-color:var(--neo);} .bg-theme-sea {background-color:var(--sea);} .bg-theme-gray {background-color:var(--gray);} .bg-theme-purly {background-color:var(--purly);}
+// /*background-theme */
+// .bg-theme-dark {background-color:var(--dark);} .bg-theme-white {background-color:#f6f5f5;} .bg-theme-lagoon {background-color:var(--lagoon);} .bg-theme-cayman {background-color:var(--cayman);} .bg-theme-maroon {background-color:var(--maroon);} .bg-theme-mint {background-color:var(--mint);} .bg-theme-neo {background-color:var(--neo);} .bg-theme-sea {background-color:var(--sea);} .bg-theme-gray {background-color:var(--gray);} .bg-theme-purly {background-color:var(--purly);}
 
 
-/*backgroud-colors properties*/
-.bg-alice {background-color:var(--alice)}.bg-alice-25 {background-color:var(--alice-25);}.bg-alice-50 {background-color:var(--alice-50)}.bg-alice-75 {background-color:var(--alice-75);}
-.bg-lagoon {background-color:var(--lagoon)}.bg-lagoon-25 {background-color:var(--lagoon-25);}.bg-lagoon-50 {background-color:var(--lagoon-50)}.bg-lagoon-75 {background-color:var(--lagoon-75);}
-.bg-cayman {background-color:var(--cayman)}.bg-cayman-25 {background-color:var(--cayman-25)}.bg-cayman-50 {background-color:var(--cayman-50)}.bg-cayman-75 {background-color:var(--cayman-75);}
-.bg-dark {background-color:var(--dark)}.bg-dark-25{background-color:var(--dark-25);}.bg-dark-50 {background-color:var(--dark-50);}.bg-dark-75 {background-color:var(--dark-75);}
-.bg-maroon {background-color:var(--maroon);}.bg-maroon-25{background-color:var(--maroon-25);}.bg-maroon-50{background-color:var(--maroon-50);}.bg-maroon-75{background-color:var(--maroon-75);}
-.bg-mint {background-color:var(--mint);}.bg-mint-25{background-color:var(--mint-25);}.bg-mint-50{background-color:var(--mint-50);}.bg-mint-75{background-color:var(--mint-75);}
-.bg-neo {background-color:var(--neo);}.bg-neo-25{background-color:var(--neo-25);}.bg-neo-50{background-color: var(--neo-50);}.bg-neo-75{background-color:var(--neo-75);}
-.bg-sea {background-color:var(--sea);}.bg-sea-25{background-color:var(--sea-25);}.bg-sea-50{background-color:var(--sea-50);}.bg-sea-75{background-color:var(--sea-75);}
-.bg-gray {background-color:var(--gray);} .bg-gray-25 {background-color:var(--gray-25);} .bg-gray-50 {background-color:var(--gray-50);} .bg-gray-75 {background-color:var(--gray-75);}
-.bg-purly {background-color:var(--purly);} .bg-purly-25 {background-color:var(--purly-25);} .bg-purly-50 {background-color:var(--purly-50);} .bg-purly-75 {background-color: var(--purly-75);}
+// /*backgroud-colors properties*/
+// .bg-alice {background-color:var(--alice)}.bg-alice-25 {background-color:var(--alice-25);}.bg-alice-50 {background-color:var(--alice-50)}.bg-alice-75 {background-color:var(--alice-75);}
+// .bg-lagoon {background-color:var(--lagoon)}.bg-lagoon-25 {background-color:var(--lagoon-25);}.bg-lagoon-50 {background-color:var(--lagoon-50)}.bg-lagoon-75 {background-color:var(--lagoon-75);}
+// .bg-cayman {background-color:var(--cayman)}.bg-cayman-25 {background-color:var(--cayman-25)}.bg-cayman-50 {background-color:var(--cayman-50)}.bg-cayman-75 {background-color:var(--cayman-75);}
+// .bg-dark {background-color:var(--dark)}.bg-dark-25{background-color:var(--dark-25);}.bg-dark-50 {background-color:var(--dark-50);}.bg-dark-75 {background-color:var(--dark-75);}
+// .bg-maroon {background-color:var(--maroon);}.bg-maroon-25{background-color:var(--maroon-25);}.bg-maroon-50{background-color:var(--maroon-50);}.bg-maroon-75{background-color:var(--maroon-75);}
+// .bg-mint {background-color:var(--mint);}.bg-mint-25{background-color:var(--mint-25);}.bg-mint-50{background-color:var(--mint-50);}.bg-mint-75{background-color:var(--mint-75);}
+// .bg-neo {background-color:var(--neo);}.bg-neo-25{background-color:var(--neo-25);}.bg-neo-50{background-color: var(--neo-50);}.bg-neo-75{background-color:var(--neo-75);}
+// .bg-sea {background-color:var(--sea);}.bg-sea-25{background-color:var(--sea-25);}.bg-sea-50{background-color:var(--sea-50);}.bg-sea-75{background-color:var(--sea-75);}
+// .bg-gray {background-color:var(--gray);} .bg-gray-25 {background-color:var(--gray-25);} .bg-gray-50 {background-color:var(--gray-50);} .bg-gray-75 {background-color:var(--gray-75);}
+// .bg-purly {background-color:var(--purly);} .bg-purly-25 {background-color:var(--purly-25);} .bg-purly-50 {background-color:var(--purly-50);} .bg-purly-75 {background-color: var(--purly-75);}
 
-/*background-text collaboration */
-.bg-text-alice {background-color:var(--alice);color:var(--dark);} .bg-text-lagoon {background-color: var(--lagoon);color:#ffffff;} .bg-text-cayman {background-color: var(--cayman); color:#ffffff;}
-.bg-text-dark {background-color:var(--dark);color:#ffffff;} .bg-text-maroon {background-color: var(--maroon);color:#ffffff;} .bg-text-mint {background-color: var(--mint);color:var(--dark);}
-.bg-text-neo {background-color:var(--neo);color:var(--dark);} .bg-text-sea {background-color:var(--sea);color: #ffffff;}
-.bg-text-gray {background-color:var(--gray);color:#ffffff;} .bg-text-purly {background-color: var(--purly); color:#ffffff;}
+// /*background-text collaboration */
+// .bg-text-alice {background-color:var(--alice);color:var(--dark);} .bg-text-lagoon {background-color: var(--lagoon);color:#ffffff;} .bg-text-cayman {background-color: var(--cayman); color:#ffffff;}
+// .bg-text-dark {background-color:var(--dark);color:#ffffff;} .bg-text-maroon {background-color: var(--maroon);color:#ffffff;} .bg-text-mint {background-color: var(--mint);color:var(--dark);}
+// .bg-text-neo {background-color:var(--neo);color:var(--dark);} .bg-text-sea {background-color:var(--sea);color: #ffffff;}
+// .bg-text-gray {background-color:var(--gray);color:#ffffff;} .bg-text-purly {background-color: var(--purly); color:#ffffff;}
 
-@mixin link-Color($color) {
-    color:$color;
-}
-.link-alice {
-    @include link-Color(var(--alice))
-}
-.link-lagoon {
-    @include link-Color(var(--lagoon));
-}
+// @mixin link-Color($color) {
+//     color:$color;
+// }
+// .link-alice {
+//     @include link-Color(var(--alice))
+// }
+// .link-lagoon {
+//     @include link-Color(var(--lagoon));
+// }
+// .link-cayman {
+//     @include link-Color(var(--cayman));
+// }
+// .link-dark {
+//     @include link-Color(var(--cayman));
+// }
+// .link-maroon {
+//     @include link-Color(var(--cayman));
+// }
+// .link-mint {
+//     @include link-Color(var(--cayman));
+// }
+// .link-neo {
+//     @include link-Color(var(--cayman));
+// }
+// .link-sea {
+//     @include link-Color(var(--cayman));
+// }
+// .link-gray {
+//     @include link-Color(var(--cayman));
+// }
+// .link-purly {
+//     @include link-Color(var(--cayman));
+// }
 
 /* border-radius*/
 .rounded {border-radius:12px;overflow:hidden;} .rounded-top {border-radius:12px 12px 0 0;} .rounded-end {border-radius:0 12px 12px 0;} .rounded-start {border-radius:12px 0 0 12px} .rounded-circle {border-radius:50%;} .rounded-pill {border-radius:35%;}
@@ -41,97 +65,88 @@
 
 
 
-/*text property*/
-.text-white {color:#ffffff;} .text-dark{color:var(--dark)} .text-alice{color:var(--alice);} .text-lagoon {color:var(--lagoon)}.text-cayman {color:var(--cayman)}.text-maroon {color:var(--maroon);}.text-mint{color:var(--mint);}.text-neo{color:var(--neo);}
-.text-sea{color:var(--sea);}.text-gray {color:var(--gray);} .text-purly{color:var(--purly);}
-.text-center{text-align:center;}.text-left{text-align:left;}.text-right{text-align:right;}.text-justity{text-align:justify}
-.text-uppercase {text-transform:uppercase;} .text-lower {text-transform:lowercase;} .text-capitalize {text-transform:capitalize;}
-.text-underline {text-decoration: underline;} .text-overline {text-decoration:overline;} .text-dashed {text-decoration:dashed;} .text-dotted {text-decoration:dotted;}
-/*tx- {text-}*/
+
+// /*text property*/
+// .text-white {color:#ffffff;} .text-dark{color:var(--dark)} .text-alice{color:var(--alice);} .text-lagoon {color:var(--lagoon)}.text-cayman {color:var(--cayman)}.text-maroon {color:var(--maroon);}.text-mint{color:var(--mint);}.text-neo{color:var(--neo);}
+// .text-sea{color:var(--sea);}.text-gray {color:var(--gray);} .text-purly{color:var(--purly);}
+// .text-center{text-align:center;}.text-left{text-align:left;}.text-right{text-align:right;}.text-justity{text-align:justify}
+// .text-uppercase {text-transform:uppercase;} .text-lower {text-transform:lowercase;} .text-capitalize {text-transform:capitalize;}
+// .text-underline {text-decoration: underline;} .text-overline {text-decoration:overline;} .text-dashed {text-decoration:dashed;} .text-dotted {text-decoration:dotted;}
+// /*tx- {text-}*/
 
 
-
-@mixin panel-background($backgroundcolor, $color) {
-    background-color:$backgroundcolor;
-    color:$color;
-} 
-.panel {
-    border-radius:12px 12px 8px 8px;
-    border:1px solid #222;
-    overflow:hidden;
-    .panel-heading {
-        padding:var(--p4); 
-    }
-     .panel-body {
-        padding:var(--p4); 
-         .panel-title {
-             font: {
-                 weight: bold;
-             }
-         }
-     }
- }
+// @mixin panel-background($backgroundcolor, $color) {
+//     background-color:$backgroundcolor;
+//     color:$color;
+// } 
+// .panel {
+//     border-radius:12px 12px 8px 8px;
+//     border:1px solid #222;
+//     overflow:hidden;
+//     .panel-heading {
+//         padding:var(--p4); 
+//     }
+//      .panel-body {
+//         padding:var(--p4); 
+//          .panel-title {
+//              font: {
+//                  weight: bold;
+//              }
+//          }
+//      }
+//  }
  
-.panel-alice {
-    .panel-heading {
-        @include panel-background(var(--alice-50), var(--dark));
+// .panel-alice {
+//     .panel-heading {
+//         @include panel-background(var(--alice-50), var(--dark));
          
-    }
-}
-.panel-lagoon {
-    .panel-heading {
-        @include panel-background(var(--lagoon-25), #ffffff);
-        
-    }
-}
-.panel-cayman {
-    .panel-heading {
-        @include panel-background(var(--cayman-25), #ffffff);
-        
-    }
-}
-.panel-dark {
-    .panel-heading {
-        @include panel-background(var(--dark-25), #ffffff);
-        
-    }
-}
-.panel-maroon {
-    .panel-heading {
-        @include panel-background(var(--maroon-25), #ffffff);
-        
-    }
-}
-.panel-minit {
-    .panel-heading {
-        @include panel-background(var(--mint-25), #ffffff);
-        
-    }
-}
-.panel-neo {
-    .panel-heading {
-        @include panel-background(var(--neo-25), var(--dark-25));
-        
-    }
-}
-.panel-sea {
-    .panel-heading {
-        @include panel-background(var(--sea-25), var(--dark-25));
-        
-    }
-}
-.panel-gray {
-    .panel-heading {
-        @include panel-background(var(--gray-25), #ffffff);
-        
-    }
-}
-.panel-purly {
-    .panel-heading {
-        @include panel-background(var(--purly-25), #ffffff);
-        
-    }
-}
+//     }
+// }
+// .panel-lagoon {
+//     .panel-heading {
+//         @include panel-background(var(--lagoon-25), #ffffff);
+//     }
+// }
+// .panel-cayman {
+//     .panel-heading {
+//         @include panel-background(var(--cayman-25), #ffffff);
+//     }
+// }
+// .panel-dark {
+//     .panel-heading {
+//         @include panel-background(var(--dark-25), #ffffff);
+//     }
+// }
+// .panel-maroon {
+//     .panel-heading {
+//         @include panel-background(var(--maroon-25), #ffffff);
+//     }
+// }
+// .panel-minit {
+//     .panel-heading {
+//         @include panel-background(var(--mint-25), #ffffff);
+//     }
+// }
+// .panel-neo {
+//     .panel-heading {
+//         @include panel-background(var(--neo-25), var(--dark-25));
+//     }
+// }
+// .panel-sea {
+//     .panel-heading {
+//         @include panel-background(var(--sea-25), var(--dark-25));
+//     }
+// }
+// .panel-gray {
+//     .panel-heading {
+//         @include panel-background(var(--gray-25), #ffffff);
+//     }
+// }
+// .panel-purly {
+//     .panel-heading {
+//         @include panel-background(var(--purly-25), #ffffff);
+//     }
+// }
 
 
 

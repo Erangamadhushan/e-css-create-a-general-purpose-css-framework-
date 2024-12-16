@@ -1,0 +1,37 @@
+@mixin link-Color($color) {
+    color:$color;
+    text-decoration:none;
+    &:hover {
+        text-decoration:underline;
+    }
+}
+.link-alice {
+    @include link-Color(var(--alice))
+}
+.link-lagoon {
+    @include link-Color(var(--lagoon));
+}
+.link-cayman {
+    @include link-Color(var(--cayman));
+}
+.link-dark {
+    @include link-Color(var(--cayman));
+}
+.link-maroon {
+    @include link-Color(var(--cayman));
+}
+.link-mint {
+    @include link-Color(var(--cayman));
+}
+.link-neo {
+    @include link-Color(var(--cayman));
+}
+.link-sea {
+    @include link-Color(var(--cayman));
+}
+.link-gray {
+    @include link-Color(var(--cayman));
+}
+.link-purly {
+    @include link-Color(var(--cayman));
+}

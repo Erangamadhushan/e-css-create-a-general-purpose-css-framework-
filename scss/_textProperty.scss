@@ -1,0 +1,10 @@
+/* text-size property */
+.text-sm {font-size:.75em;} .text-md {font-size:1em;} .text-lg {font-size:1.25em;} .text-xl {font-size:1.75em;} .text-xxl {font-size:2.25em;}
+
+/*text property*/
+.text-white {color:#ffffff;} .text-dark{color:var(--dark)} .text-alice{color:var(--alice);} .text-lagoon {color:var(--lagoon)}.text-cayman {color:var(--cayman)}.text-maroon {color:var(--maroon);}.text-mint{color:var(--mint);}.text-neo{color:var(--neo);}
+.text-sea{color:var(--sea);}.text-gray {color:var(--gray);} .text-purly{color:var(--purly);}
+.text-center{text-align:center;}.text-left{text-align:left;}.text-right{text-align:right;}.text-justity{text-align:justify}
+.text-uppercase {text-transform:uppercase;} .text-lower {text-transform:lowercase;} .text-capitalize {text-transform:capitalize;}
+.text-underline {text-decoration: underline;} .text-overline {text-decoration:overline;} .text-dashed {text-decoration:dashed;} .text-dotted {text-decoration:dotted;}
+/*tx- {text-}*/
