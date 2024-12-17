@@ -19,3 +19,9 @@
 
 /*article*/
 .article {width:100%;position:relative;padding:0; padding-block:10px;margin-block:10px;} .article .aside {width:25%;position:relative;float:left;padding:5px;} .article .description {width:75%;position:relative;float:left;padding:5px;}
+
+/* border-radius*/
+.rounded {border-radius:12px;overflow:hidden;} .rounded-top {border-radius:12px 12px 0 0;} .rounded-end {border-radius:0 12px 12px 0;} .rounded-start {border-radius:12px 0 0 12px} .rounded-circle {border-radius:50%;} .rounded-pill {border-radius:35%;}
+.rounded-1 {border-radius:5px;} .rounded-2 {border-radius:10px;} .rounded-3 {border-radius:15px;} .rounded-4 {border-radius:20px;} .rounded-5 {border-radius:25px;} .rounded-full {border-radius:50%;}
+
+
