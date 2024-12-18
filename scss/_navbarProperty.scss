@@ -1,0 +1,9 @@
+.nav {
+    display:flex; list-style:none; padding:8px;
+    .nav-item {
+        padding-inline:1.75em;
+        .nav-link {
+            text-decoration:none;
+        }
+    }
+}

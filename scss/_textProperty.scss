@@ -8,3 +8,8 @@
 .text-uppercase {text-transform:uppercase;} .text-lower {text-transform:lowercase;} .text-capitalize {text-transform:capitalize;}
 .text-underline {text-decoration: underline;} .text-overline {text-decoration:overline;} .text-dashed {text-decoration:dashed;} .text-dotted {text-decoration:dotted;}
 /*tx- {text-}*/
+
+/* .p-{padding:var()}.px-{padding-inline:var();}.py-{padding-block:var()}.pt-{padding-block-start:var()}.pb-{padding-block-end:var()}.pl-{padding-inline-start:var()}.pr-{padding-inline-end:var();} */
+
+/* text-align-property*/
+.text-center {text-align:center;} .text-end {text-align:end;} .text-justify {text-align:justify;} .text-left {text-align:left;} .text-right {text-align:right;} .text-start {text-align:start;}
