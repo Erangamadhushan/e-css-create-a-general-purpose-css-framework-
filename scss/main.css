@@ -170,54 +170,13 @@
   float: inline-end;
 }
 
-/*background-theme */
-.bg-theme-dark {
-  background-color: var(--dark);
-}
-
-.bg-theme-white {
-  background-color: #f6f5f5;
-}
-
-.bg-theme-lagoon {
-  background-color: var(--lagoon);
-}
-
-.bg-theme-cayman {
-  background-color: var(--cayman);
-}
-
-.bg-theme-maroon {
-  background-color: var(--maroon);
-}
-
-.bg-theme-mint {
-  background-color: var(--mint);
-}
-
-.bg-theme-neo {
-  background-color: var(--neo);
-}
-
-.bg-theme-sea {
-  background-color: var(--sea);
-}
-
-.bg-theme-gray {
-  background-color: var(--gray);
-}
-
-.bg-theme-purly {
-  background-color: var(--purly);
-}
-
 /*backgroud-colors properties*/
 .bg-alice {
   background-color: var(--alice);
 }
 
 .bg-alice-25 {
-  background-color: var(--alice-25);
+  background-color: var(--alice);
 }
 
 .bg-alice-50 {
@@ -390,7 +349,7 @@
 
 .bg-text-dark {
   background-color: var(--dark);
-  color: #ffffff;
+  color: var(--alice);
 }
 
 .bg-text-maroon {
